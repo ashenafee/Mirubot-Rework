@@ -1,6 +1,6 @@
-from mirubot import Mirubot
+from bot.bot.mirubot import Mirubot
 import interactions
-from buttons import next_button, previous_button, enter_button, airing_button
+from bot.bot.buttons import next_button, previous_button, enter_button, airing_button
 
 
 mirubot = Mirubot()

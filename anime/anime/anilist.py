@@ -1,9 +1,9 @@
 from email.mime import image
 from typing import Dict
-from anime import Anime
+from anime.anime.anime import Anime
 import requests
 import json
-from queries import ANIME_SEARCH
+from search.search.queries import ANIME_SEARCH
 from interactions.api.models import Embed, EmbedImageStruct
 
 

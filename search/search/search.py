@@ -1,5 +1,5 @@
-from anilist import AnilistAnime
-from queries import ANIME_SEARCH
+from anime.anime.anilist import AnilistAnime
+from search.search.queries import ANIME_SEARCH
 import requests
 
 

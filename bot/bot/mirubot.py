@@ -2,9 +2,9 @@ from typing import Dict, List
 import interactions
 import os
 from dotenv import load_dotenv
-from anilist import AnilistAnime, AnilistAnimeFactory
-from search import AnimeSearch
-from screen import Screen
+from anime.anime.anilist import AnilistAnime, AnilistAnimeFactory
+from search.search.search import AnimeSearch
+from bot.bot.screen import Screen
 
 
 # Load .env file
